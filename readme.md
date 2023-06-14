@@ -213,4 +213,6 @@ MIN-MAX, COUNT-AVG-SUM, GROUP BY, JOINS (INNER, OUTER, LEFT, RIGHT
     LEFT JOIN kitap 
 	AS k ON k.kitapno = i.kitapno
     GROUP BY o.ograd, o.ogrsoyad
+	ORDER BY o.ograd
 
+1
